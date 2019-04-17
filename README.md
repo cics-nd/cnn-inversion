@@ -4,9 +4,9 @@
 
 [Shaoxing Mo](https://scholar.google.com/citations?hl=en&user=G6ac1xUAAAAJ&view_op=list_works&gmla=AJsN-F4ses_YhFsF-w2sFZLhacR7vrVyN1272g_B7XQyGbYsvy_6ReJpe4ChndNy_cFQ7UqXCSi82UiLjMB2dKyqSj8x5DaPRg), [Nicholas Zabaras](https://www.zabaras.com/), [Xiaoqing Shi](https://scholar.google.com/citations?user=MLKqgKoAAAAJ&hl=en&oi=sra), Jichun Wu
 
-PyTorch implementation of deep autoregressive nueral networks based on a dense convolutional encoder-decoder network architecture for dynamical solute transport models with a time-varying source term and for subsequent high-dimensional inverse modeling. In the network, the time-varying process is represented using an autoregressive model, in which the time-dependent output at previous time step (y<sub>i-1;</sub>) is treated as input to predict the current output (y<sub>i;</sub>), that is, 
+PyTorch implementation of deep autoregressive nueral networks based on a dense convolutional encoder-decoder network architecture for dynamical solute transport models with a time-varying source term and for subsequent high-dimensional inverse modeling. In the network, the time-varying process is represented using an autoregressive model, in which the time-dependent output at previous time step (y<sub>i-1</sub>) is treated as input to predict the current output (y<sub>i</sub>), that is, 
 
-y<sub>i;</sub>=f(x<sub>i;</sub>,y<sub>i-1;</sub>), 
+# y<sub>i</sub>=f(x<sub>i</sub>,y<sub>i-1</sub>), 
 
 where x is the uncertain model input considered.
 
@@ -19,6 +19,9 @@ where x is the uncertain model input considered.
 
 # Datasets, Pretrained Model, and Forward Model Input Files
 The datasets used, pretrained models, input files for the forward model, and needed scripts have been uploaded to Google Drive and can be downloaded using this link [https://drive.google.com/drive/folders/1keg9HwP3bs9JUCyqYflKNwIHwep2CD6r?usp=sharing](https://drive.google.com/drive/folders/1keg9HwP3bs9JUCyqYflKNwIHwep2CD6r?usp=sharing)
+
+# Inverse Modeling
+The iterative local updating ensemble smoother (ILUES) algorithm proposed in [Zhhang et al. (2018)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017WR020906) is used in this study as the inversion framework to solve high-dimensional inverse problems. We would like to thank Dr. Zhang for sharing the codes of ILUES.
 
 # Citation
 See [Mo et al. (2018)](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018WR024638) for more information. If you find this repo useful for your research, please consider to cite:
