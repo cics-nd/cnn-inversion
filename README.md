@@ -9,4 +9,35 @@ PyTorch implementation of deep autoregressive nueral networks based on a dense c
 y<sub>i;</sub>=f(x<sub>i;</sub>,y<sub>i-1;</sub>), 
 
 where x is the uncertain model input considered.
-  
+
+# Dependencies
+* python 3
+* PyTorch 0.4
+* h5py
+* matplotlib
+* seaborn
+
+# Datasets, Pretrained Model, and Forward Model Input Files
+The datasets used, pretrained models, input files for the forward model, and needed scripts have been uploaded to Google Drive and can be downloaded using this link [https://drive.google.com/drive/folders/1keg9HwP3bs9JUCyqYflKNwIHwep2CD6r?usp=sharing](https://drive.google.com/drive/folders/1keg9HwP3bs9JUCyqYflKNwIHwep2CD6r?usp=sharing)
+
+# Citation
+See [Mo et al. (2018)](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018WR024638) for more information. If you find this repo useful for your research, please consider to cite:
+```
+@article{moetal2018,
+author = {Mo, Shaoxing and Zabaras, Nicholas and Shi, Xiaoqing and Wu, Jichun},
+title = {Deep autoregressive neural networks for high-dimensional inverse problems in groundwater contaminant source identification},
+journal = {Water Resources Research},
+volume = {},
+number = {},
+pages = {},
+doi = {10.1029/2018WR024638},
+url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018WR024638}
+}
+```
+or:
+```
+Mo, S., Zabaras, N., Shi, X., & Wu, J. ( 2019). Deep autoregressive neural networks for high‐dimensional inverse problems in groundwater contaminant source identification. Water Resources Research, 55. https://doi.org/10.1029/2018WR024638
+```
+
+# Questions
+Contact Shaoxing Mo (smo@smail.nju.edu.cn) or Nicholas Zabaras (nzabaras@gmail.com) with questions or comments.
