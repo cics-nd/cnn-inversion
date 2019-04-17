@@ -32,7 +32,7 @@ def read_output(ndata, dy, ngx, ngy):
 
 ndata = 1000
 dx = 6
-dy = 8
+dy = 8 
 ngx = 41
 ngy = 81
 read_input(ndata,dx,ngx,ngy)
