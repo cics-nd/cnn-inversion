@@ -6,4 +6,4 @@
 
 PyTorch implementation of deep autoregressive nueral networks based on a dense convolutional encoder-decoder network architecture for dynamical solute transport models with a time-varying source term and for subsequent high-dimensional inverse modeling. In the network, the time-varying process is represented using an autoregressive model, in which the time-dependent output at previous time step $y_{i-1}$
 
-This manuscript has been accepted by [Water Resources Research](https://agupubs.onlinelibrary.wiley.com/journal/19447973) and we will upload the codes and data used soon. 
+This manuscript has been accepted by [Water Resources Research](https://agupubs.onlinelibrary.wiley.com/journal/19447973) and we will upload the codes and data used soon. h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
