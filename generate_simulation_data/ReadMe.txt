@@ -1,0 +1,2 @@
+1. Run KLE_GenData.m to generate the training data
+2. run read_data.py and read_data_2out.py to read simulation results to generate input/output training data files for Net and AR-Net / AR-Net-WL, respectively.
