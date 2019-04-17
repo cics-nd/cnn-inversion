@@ -26,7 +26,7 @@ The iterative local updating ensemble smoother (ILUES) algorithm proposed in [Zh
 # Citation
 See [Mo et al. (2019)](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018WR024638) for more information. If you find this repo useful for your research, please consider to cite:
 ```
-@article{moetal2018,
+@article{moetal2019,
 author = {Mo, Shaoxing and Zabaras, Nicholas and Shi, Xiaoqing and Wu, Jichun},
 title = {Deep autoregressive neural networks for high-dimensional inverse problems in groundwater contaminant
          source identification},
