@@ -25,7 +25,8 @@ See [Mo et al. (2018)](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2
 ```
 @article{moetal2018,
 author = {Mo, Shaoxing and Zabaras, Nicholas and Shi, Xiaoqing and Wu, Jichun},
-title = {Deep autoregressive neural networks for high-dimensional inverse problems in groundwater contaminant source identification},
+title = {Deep autoregressive neural networks for high-dimensional inverse problems in groundwater contaminant
+         source identification},
 journal = {Water Resources Research},
 volume = {},
 number = {},
@@ -36,7 +37,9 @@ url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018WR024638}
 ```
 or:
 ```
-Mo, S., Zabaras, N., Shi, X., & Wu, J. ( 2019). Deep autoregressive neural networks for high‐dimensional inverse problems in groundwater contaminant source identification. Water Resources Research, 55. https://doi.org/10.1029/2018WR024638
+Mo, S., Zabaras, N., Shi, X., & Wu, J. ( 2019). Deep autoregressive neural networks for high‐dimensional inverse
+problems in groundwater contaminant source identification. Water Resources Research, 55. 
+https://doi.org/10.1029/2018WR024638
 ```
 
 # Questions
