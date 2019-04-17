@@ -21,7 +21,7 @@ where x is the uncertain model input considered.
 The datasets used, pretrained models, input files for the forward model, and needed scripts have been uploaded to Google Drive and can be downloaded using this link [https://drive.google.com/drive/folders/1keg9HwP3bs9JUCyqYflKNwIHwep2CD6r?usp=sharing](https://drive.google.com/drive/folders/1keg9HwP3bs9JUCyqYflKNwIHwep2CD6r?usp=sharing)
 
 # Inverse Modeling
-The iterative local updating ensemble smoother (ILUES) algorithm proposed in [Zhhang et al. (2018)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017WR020906) is used in this study as the inversion framework to solve high-dimensional inverse problems. We would like to thank Dr. Zhang for sharing the codes of ILUES.
+The iterative local updating ensemble smoother (ILUES) algorithm proposed in [Zhang et al. (2018)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017WR020906) is used in this study as the inversion framework to solve high-dimensional inverse problems. We would like to thank Dr. Zhang for sharing the codes of ILUES.
 
 # Citation
 See [Mo et al. (2019)](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018WR024638) for more information. If you find this repo useful for your research, please consider to cite:
