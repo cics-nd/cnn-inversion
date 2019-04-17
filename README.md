@@ -41,7 +41,7 @@ url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018WR024638}
 ```
 or:
 ```
-Mo, S., Zabaras, N., Shi, X., & Wu, J. ( 2019). Deep autoregressive neural networks for high‐dimensional inverse
+Mo, S., Zabaras, N., Shi, X., & Wu, J. (2019). Deep autoregressive neural networks for high‐dimensional inverse
 problems in groundwater contaminant source identification. Water Resources Research, 55. 
 https://doi.org/10.1029/2018WR024638
 ```
