@@ -28,7 +28,7 @@ With the training data prepared with the shape mentioned above, use the followin
 ```
 python train_time.py or python3 train_time.py
 ```
-You will need to change the 'data-dir' parameter, probably need to modify the values of kernel size, stride, zero padding in dense_ed.py according to the value of H x W.
+One will need to change the 'data-dir' parameter, probably need to modify the values of kernel size, stride, zero padding in dense_ed.py according to the value of H x W.
 
 # Inverse Modeling
 The iterative local updating ensemble smoother (ILUES) algorithm proposed in [Zhang et al. (2018)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017WR020906) is used in this study as the inversion framework to solve high-dimensional inverse problems. We would like to thank Dr. Zhang for sharing the codes of ILUES.
