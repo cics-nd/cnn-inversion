@@ -26,7 +26,7 @@ The training data are saved in the form: N x Nc x H x W, where N is the number o
 # Network Training
 With the training data prepared with the shape mentioned above, use the following command to train the network:
 ```
-python train_time.py or python3 train_time.py
+python train_Net.py   OR   python3 train_Net.py
 ```
 One will need to change the 'data-dir' parameter, probably need to modify the values of kernel size, stride, zero padding in dense_ed.py according to the value of H x W.
 
