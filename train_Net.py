@@ -3,7 +3,7 @@ Convolutional Encoder-Decoder Networks for Image-to-Image Regression
 
 """
 
-from dense_ed import DenseEDS
+from dense_ed import DenseED
 import torch as th
 import numpy as np
 import torch.nn as nn
@@ -78,7 +78,7 @@ x_train, y_train, n_out_pixels_train, y_train_var, train_loader = load_data(hdf5
 hdf5_dir = args.data_dir + "raw2/lsx4_lsy2_var0.5_smax8_D1r0.1/kle{}_lhs{}".format(args.kle_terms,args.n_test)
 x_test, y_test, n_out_pixels_test, y_test_var, test_loader = load_data(hdf5_dir, args, kwargs, 'test')
 
-model = DenseEDS(x_train.shape[1], y_train.shape[1], blocks=args.blocks, growth_rate=args.growth_rate,
+model = DenseED(x_train.shape[1], y_train.shape[1], blocks=args.blocks, growth_rate=args.growth_rate,
                 drop_rate=args.drop_rate, bn_size=args.bn_size,
                 num_init_features=args.init_features, bottleneck=args.bottleneck).to(device)
 print(model)
